@@ -1,0 +1,66 @@
+/* Styling untuk keseluruhan halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Background dengan warna creme lembut */
+    background-color: #fdfaf0; 
+    color: #2d3436;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container utama */
+.card {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    /* Shadow lebih lembut dengan tone hijau */
+    box-shadow: 0 10px 25px rgba(40, 167, 69, 0.1);
+    /* Border aksen hijau di bagian atas */
+    border-top: 8px solid #28a745; 
+}
+
+/* Header utama */
+h1 {
+    /* Hijau Khas Lebaran */
+    color: #1b5e20; 
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center; /* Teks ucapan biasanya lebih cantik rata tengah */
+}
+
+/* Garis pemisah */
+hr {
+    border: none;
+    height: 1px;
+    /* Gradien emas untuk kesan mewah */
+    background: linear-gradient(to right, transparent, #d4af37, transparent);
+    margin: 20px 0;
+}
+
+/* Greeting / Footer */
+small {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    color: #6d757a;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/* Tambahan: Aksen dekoratif untuk memperkuat nuansa */
+.card::before {
+    content: "🌙"; /* Ikon bulan sabit sederhana */
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
