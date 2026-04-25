@@ -11,7 +11,6 @@ export default function Customers() {
         title="Daftar Pelanggan" 
         breadcrumb={["Home", "Customers"]}
       >
-        {/* ✅ button sudah aktif */}
         <button 
           onClick={() => setOpen(true)}
           className="bg-blue-600 text-white px-4 py-2 rounded"
@@ -46,7 +45,6 @@ export default function Customers() {
         </table>
       </div>
 
-      {/* ✅ FORM MODAL */}
       {open && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
           <div className="bg-white p-6 rounded w-[300px]">
