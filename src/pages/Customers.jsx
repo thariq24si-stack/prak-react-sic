@@ -3,7 +3,7 @@ import { customers } from "../data/customers";
 import { useState } from "react";
 
 export default function Customers() {
-  const [open, setOpen] = useState(false); // ✅ state modal
+  const [open, setOpen] = useState(false); 
 
   return (
     <div id="dashboard-container" className="bg-gray-50 min-h-screen">
