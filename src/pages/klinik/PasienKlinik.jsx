@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaSearch, FaPlus, FaEdit, FaTrash, FaHistory } from "react-icons/fa";
-import { dataPasien, dataTransaksi, getTotalPoinPasien } from "../../data/klinikData";
+import { dataPasien, dataTransaksi, getTotalPoinPasien } from "../../data/KlinikData";
 
 export default function PasienKlinik() {
   const [pasien, setPasien] = useState(dataPasien);

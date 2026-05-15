@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaCalendarAlt, FaClock, FaUserMd, FaWhatsapp, FaEnvelope } from "react-icons/fa";
-import { dataJadwal, dataPasien } from "../../data/klinikData";
+import { dataJadwal, dataPasien } from "../../data/KlinikData";
 
 export default function JadwalKlinik() {
   const [jadwal, setJadwal] = useState(dataJadwal);

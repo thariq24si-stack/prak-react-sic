@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaTooth, FaUserMd, FaMoneyBillWave, FaCalendarCheck, FaChartLine } from "react-icons/fa";
-import { dataPasien, dataTransaksi, dataJadwal } from "../../data/klinikData";
+import { dataPasien, dataTransaksi, dataJadwal } from "../../data/KlinikData";
 
 export default function DashboardKlinik() {
   const [stats, setStats] = useState({

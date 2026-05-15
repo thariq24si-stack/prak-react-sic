@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaMoneyBillWave, FaReceipt, FaGift, FaWhatsapp } from "react-icons/fa";
-import { dataTransaksi, dataPasien, getTotalPoinPasien } from "../../data/klinikData";
+import { dataTransaksi, dataPasien, getTotalPoinPasien } from "../../data/KlinikData";
 
 export default function PembayaranKlinik() {
   const [transaksi, setTransaksi] = useState(dataTransaksi);

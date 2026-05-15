@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaGift, FaTrophy, FaMedal, FaRocket, FaWhatsapp } from "react-icons/fa";
-import { dataPasien, dataRekomendasi, getTotalPoinPasien } from "../../data/klinikData";
+import { dataPasien, dataRekomendasi, getTotalPoinPasien } from "../../data/KlinikData";
 
 export default function LoyalitasKlinik() {
   const [pasien] = useState(dataPasien);
