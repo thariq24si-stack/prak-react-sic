@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaCommentDots, FaCheckCircle, FaSpinner, FaPaperPlane, FaStar } from "react-icons/fa";
 import { dataKeluhan, dataPasien } from "../../data/KlinikData";
 
-export default function KeluhanKlinik() {
+export default function Keluhan() {
   const [keluhan, setKeluhan] = useState(dataKeluhan);
   const [selectedKeluhan, setSelectedKeluhan] = useState(null);
   const [respon, setRespon] = useState("");

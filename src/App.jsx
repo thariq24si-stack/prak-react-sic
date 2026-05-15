@@ -28,7 +28,7 @@ const DashboardKlinik = lazy(() => import("./pages/klinik/DashboardKlinik"));
 const PasienKlinik = lazy(() => import("./pages/klinik/PasienKlinik"));
 const JadwalKlinik = lazy(() => import("./pages/klinik/JadwalKlinik"));
 const PembayaranKlinik = lazy(() => import("./pages/klinik/PembayaranKlinik"));
-const KeluhanKlinik = lazy(() => import("./pages/klinik/KeluhanKlinik"));
+const KeluhanKlinik = lazy(() => import("./pages/klinik/Keluhan"));
 const LoyalitasKlinik = lazy(() => import("./pages/klinik/LoyalitasKlinik"));
 
 function App() {
