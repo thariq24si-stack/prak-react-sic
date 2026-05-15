@@ -18,6 +18,10 @@ const Customers = lazy(() => import("./pages/Customers"));
 const Login = lazy(() => import("./pages/Auth/Login"));
 const Register = lazy(() => import("./pages/Auth/Register"));
 const Forgot = lazy(() => import("./pages/Auth/Forgot"));
+const CustomerDetail = lazy(() => import("./pages/CustomerDetail"))
+const ProductDetail = lazy(() => import("./pages/ProductDetail"))
+const Products = lazy(() => import("./pages/Products"))
+
 
 // 👇 TAMBAHKAN IMPORTS UNTUK KLINIK
 const DashboardKlinik = lazy(() => import("./pages/klinik/DashboardKlinik"));
@@ -42,6 +46,9 @@ function App() {
                 <Route path="/error/400" element={<Error400 />} />
                 <Route path="/error/401" element={<Error401 />} />
                 <Route path="/error/403" element={<Error403 />} />
+                <Route path="/customers/:id" element={<CustomerDetail />} />
+                <Route path="/products/:id" element={<ProductDetail />} />
+          <Route path="/products" element={<Products />} />
               </Route>
 
               {/* AUTH ROUTES (Existing) */}

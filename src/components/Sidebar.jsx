@@ -1,4 +1,4 @@
-import { FaHome, FaShoppingCart, FaUsers, FaPlus } from "react-icons/fa";
+import { FaHome, FaShoppingCart, FaUsers, FaPlus, FaBox} from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Sidebar() {
@@ -34,6 +34,11 @@ export default function Sidebar() {
           <NavLink to="/orders" className={menuClass}>
             <FaShoppingCart className="mr-4 text-xl" />
             Orders
+          </NavLink>
+
+         <NavLink to="/products" className={menuClass}>
+            <FaBox className="mr-4 text-xl" />
+            Products
           </NavLink>
 
           {/* Menu Customers */}
